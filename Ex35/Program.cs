@@ -27,5 +27,11 @@ void SearchNum(int[] arr)
 }
 
 int[] array35 = arr(123, -101, 200);
+int[] arraynew = { 1, 5, 4, 37, 12, 6, 7, 1, 1, 10, 125, 5, 4 };
+int[] arraynew1 = arr(20, -10, 20);
 Console.WriteLine(string.Join(" ", array35));
 SearchNum(array35);
+Console.WriteLine(string.Join(" ", arraynew));
+SearchNum(arraynew);
+Console.WriteLine(string.Join(" ", arraynew1));
+SearchNum(arraynew1);
